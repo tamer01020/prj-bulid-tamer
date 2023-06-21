@@ -1,0 +1,392 @@
+/* start header */
+header {
+    gap: 10% 0;
+}
+header p {
+    font-size: 9px;
+}
+header .search-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header .search-container .search-box {
+    display: none;
+}
+
+header .social{
+    display: none;
+}
+header .btn {
+    display: flex;
+    justify-content: space-between;
+}
+header>img {
+    width: 100%;
+}
+/* end header */
+
+/* start nav */
+nav {
+    display: none;
+}
+.fa-solid.fa-bars{
+    display: inline;
+    color: white;
+}
+/* end nav */
+
+/* start section1 */
+.section1 {
+    flex-direction: column-reverse;
+}
+.section1 .right {
+    width: auto;
+}
+.section1 .right img {
+    height: 90%;
+}
+.section1 .left p {
+    font-size: 40px;
+}
+.section1 .left button {
+    width: 100%;
+}
+.section1 .left {
+    margin: 8%;
+}
+.section1 span {
+    display: none;
+}
+.section1 .left off {
+    margin-left: 31%;
+}
+/* end section1 */
+
+
+/* start section2 */
+.section2 {
+    display: flex;
+    margin: 14px;
+    flex-direction: column;
+    align-items: center;
+}
+/* end section2 */
+
+/* start section3 */
+.section3 {
+    margin-left: 3%;
+}
+.section3 .top {
+    margin-right: 3%;
+    margin-bottom: 7%;
+}
+.section3 .top div h2 {
+    font-size: 31px;
+}
+.section3 .down {
+    display: flex;
+    overflow: hidden;
+}
+.section3 .down img {
+    height: auto;
+    width: 40%;
+}
+/* end section3 */
+
+/* start section4 */
+.section4 {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+.section4 img{
+    display: none;
+}
+.section4>h1 {
+    text-align: center;
+}
+.section4 span {
+    display: none;
+}
+ /* end section4 */
+ 
+ /* start section5 */ 
+ .section5 {
+    display: flex;
+    flex-direction: column;
+    margin: 7% 3%;
+}
+.section5 .top {
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+
+.section5 .top div {
+    width: 80%;
+}
+ /* end section5 */
+ 
+ /* start section6 */
+.section6 {
+    padding: 4% 4%;
+    flex-direction: column;
+}
+.section6 div{
+    border: 1px solid #D5EAF9;
+    border-radius: 2px;
+    margin: 3% 0;
+}
+ /* end section6 */
+ 
+ /* start section7 */
+ .section7 {
+    margin-top: 3%;
+    height: auto;
+    padding: 0 5%;
+    flex-direction: column;
+}
+.section7 img {
+    width: 100%;
+}
+ /* end section7 */
+ 
+ /* start section8 */
+ .section8 .top {
+    margin: 0;
+    padding: 0;
+}
+.section8 .top div h6 {
+    font-size: 10px;
+}
+.section8 .top div h2 {
+    font-size: 30px;
+}
+.section8 {
+    margin: 10% 5%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.section8 .company{
+    display: flex;
+    overflow: hidden;
+}
+.section8 .down {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.section8 .down img {
+    height: auto;
+    width: 32%;
+    border-radius: 0px;
+}
+ /* end section8 */
+
+  /* start section9 */
+  .section9 .one {
+    margin: 7% 3%;
+}
+.section9 .arrow {
+    display: none;
+}
+.section9 {
+    margin: 0;
+    height: auto;
+    flex-direction: column;
+}
+.section9 .img img {
+    width: 44%;
+}
+.section9 .img {
+    margin: 4% 0;
+    display: flex;
+    overflow: hidden;
+}
+.section9 p {
+    width: 85%;
+}
+.section9 button {
+    width: 100%;
+}
+ /* end section9 */
+
+ /* start section10 */
+ .section10 {
+    margin: 5% 0;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+} 
+.section10 .one {
+    height: auto;
+}
+.section10 p {
+    font-size: 16px;
+}
+ /* end section10 */
+ 
+ /* start section11 */
+ .section11 {
+    margin: 9% 3%;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.section11 .top {
+    margin-right: 1%;
+    margin-bottom: 2%;
+    align-items: flex-start;
+    flex-direction: column;
+
+}
+.section11 .top div h2 {
+    font-size: 29px;
+    width: auto;
+}
+.section11 .down {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+}
+.section11 .down img {
+    height: auto;
+    width: 100%;
+    border-radius: 0px;
+}
+.section11 .down h6 {
+    font-size: 12px;
+}
+.section11 .down p {
+    font-size: 18px;
+}
+.section11 .down div{
+    width: auto;
+    margin-bottom: 15%;
+}
+.section11 .down button {
+    width: 100%;
+}
+ /* end section11 */
+ 
+ /* start section12 */
+ .section12 img{
+    display: none;
+}
+.section12 {
+    margin: 0% 2%;
+}
+.section12 .top {
+    margin-bottom: 4%;
+}
+.section12 .top div h6 {
+    margin: 0;
+}
+.section12 .top h6 {
+    margin: 0;
+}
+.section12 .down {
+    margin: 0;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section12 .down .left {
+    width: 100%;
+    margin-bottom: 5%;
+}
+.section12 ul {
+    font-size: 20px;
+}
+.section12 li {
+    font-size: 10px;
+}
+.section12 h6 {
+    margin: 6% 14%;
+}
+.section12 .down .right {
+    width: 100%;
+}
+
+ /* end section12 */
+ 
+ /* start section13 */
+ .section13 {
+    margin: 7% 2%;
+    flex-direction: column;
+}
+.section13 .left {
+    margin: 2% 2%;
+}
+.section13 h5 {
+    font-size: 15px;
+}
+.section13 h3 {
+    width: auto;
+    font-size: 31px;
+    line-height: 36px;
+}
+.section13 input {
+    width: 100%;
+}
+.section13 button {
+    width: 100%;
+}
+.section13 p {
+    font-size: 10px;
+    margin-top: 4%;
+}
+.section13 img {
+    width: 100%;
+}
+.section13 .right {
+    width: auto;
+}
+  
+ /* end section13 */
+
+  /* start footer */
+  footer{
+    display: flex;
+    flex-direction: column;
+    background: #17182A;
+    padding-left: 10px;
+     
+ }
+
+ footer .one {
+    margin-top: 50px;
+}
+footer .two {
+    display: flex;
+    margin-top: 50px;
+    justify-content: flex-start;
+}
+footer .three {
+    display: flex;
+    margin-top: 0;
+    justify-content: flex-start;
+}
+
+footer .four {
+    display: flex;
+    margin-top: 28px;
+    justify-content: flex-start;
+    width: auto;
+}
+footer address {
+    font-size: 10px;
+}
+
+footer .two div img{
+    display: none;
+}
+footer .three div img{
+    display: none;
+}
+footer .four div img{
+    display: none;
+}
+ /* end footer */

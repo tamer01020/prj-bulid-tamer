@@ -1,0 +1,402 @@
+/* start header */
+ header {
+    grid-template-columns: 3% 25% 45% auto;
+    gap: 0% 0%;
+}
+header>img {
+    width: 94%;
+}
+header .search-container {
+    width: 97%;
+}
+header .search-container .search-box {
+    width: 70%;
+}
+header .search-container button {
+    width: 25%;
+}
+header p {
+    font-size: 10px;
+}
+ /* end header */
+ 
+ /* start nav */
+ nav{
+    justify-content: space-around;
+    padding: 0px;
+ }
+ nav div {
+    font-size: 9px;
+}
+ /* end nav */
+ 
+ /* start section1 */
+.section1 .left {
+    margin: 10% 5%;
+}
+.section1 .left h4 {
+    font-size: 17px;
+}
+.section1 .left p {
+    font-size: 23px;
+    margin-bottom: 10%;
+}
+.section1 .left button {
+    height: auto;
+    width: 50%;
+}
+.section1 .left off {
+    font-size: 13px;
+}
+.section1 .right {
+    overflow: hidden;
+}
+.section1 .right img {
+    width: 127%;
+    height: 90%;
+}
+ /* end section1 */
+ 
+ 
+ /* start section2 */
+.section2 {
+    display: flex;
+    margin: 6% 2%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.section2 img {
+    height: auto;
+    width: auto;
+}
+.section2 div{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+  /* end section2 */
+ 
+ /* start section3 */
+.section3 .top {
+    margin-right: 1%;
+    margin-bottom: 2%;
+}
+.section3 .top div h6 {
+    font-size: 10px;
+}
+.section3 .top div h2 {
+    font-size: 30px;
+}
+.section3 {
+    margin-left: auto;
+    margin-bottom: 10%;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.section3 .down {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.section3 .down img {
+    height: auto;
+    width: 32%;
+    border-radius: 0px;
+}
+
+ /* end section3 */
+ 
+ /* start section4 */
+.section4 {
+    grid-template-columns: 2% 27% 6% 1fr 2% 1fr 2% 18% 3%;
+    gap: 0;
+    height: auto;
+}
+.section4>h1 {
+    font-size: 12px;
+}
+.section4 div h1 {
+    font-size: 23px;
+}
+.section4 div h6 {
+    font-size: 11px;
+}
+ /* end section4 */
+ 
+ /* start section5 */ 
+.section5 .top {
+    margin: 2%;
+    width: 97%;
+}
+.section5 .top div {
+    width: auto;
+}
+.section5 .top div h6 {
+    font-size: 10px;
+}
+.section5 .top div h2 {
+    font-size: 32px;
+}
+.section5 {
+    margin-left: auto;
+    margin-bottom: 10%;
+    flex-direction: column;
+    margin-top: 5%;
+}
+ 
+ /* end section5 */
+ 
+ /* start section6 */
+.section6 {
+    padding: 3%;
+}
+.section6 h6 {
+    font-size: 10px;
+}
+.section6 p {
+    font-size: 13px;
+    padding: 0 7%;
+}
+.section6 img {
+    width: 16%;
+}
+ 
+ /* end section6 */
+ 
+ /* start section7 */
+ .section7 {
+    margin-top: 3%;
+    height: auto;
+    padding: 0 5%;
+    flex-direction: column;
+}
+.section7 img {
+    width: 100%;
+}
+ /* end section7 */
+ 
+ /* start section8 */
+ .section8 .top {
+    margin: 0;
+    padding: 0;
+}
+.section8 .top div h6 {
+    font-size: 10px;
+}
+.section8 .top div h2 {
+    font-size: 30px;
+}
+.section8 {
+    margin: 10% 5%;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.section8 .down {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.section8 .down img {
+    height: auto;
+    width: 32%;
+    border-radius: 0px;
+}
+ /* end section8 */
+ 
+ /* start section9 */
+ .section9 .one {
+    margin: 7% 3%;
+}
+.section9 .arrow {
+    margin: 0 2%;
+}
+.section9 {
+    margin: 0;
+    height: auto;
+}
+.section9 .img img {
+    width: 44%;
+}
+.section9 .img {
+    margin: 4% 0;
+    display: flex;
+    overflow: hidden;
+}
+ /* end section9 */
+ 
+ /* start section10 */
+ .section10 {
+    margin: 5% 0;
+    justify-content: space-between;
+}
+.section10 img {
+    width: 100%;
+}
+.section10 .one {
+    height: auto;
+}
+.section10 h6 {
+    font-size: 10px;
+}
+.section10 h4 {
+    font-size: 15px;
+}
+.section10 p {
+    font-size: 10px;
+}
+.section10 button {
+    color: #FFFFFF;
+    width: 101px;
+    height: auto;
+}
+.section10 .one {
+    height: 268px;
+    justify-content: center;
+}
+ /* end section10 */
+ 
+ /* start section11 */
+ .section11 {
+    margin: 9% 3%;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.section11 .top {
+    margin-right: 1%;
+    margin-bottom: 2%;
+    align-items: flex-end;
+}
+.section11 .down {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 0;
+    flex-direction: row;
+    overflow: hidden;
+}
+.section11 .down img {
+    height: auto;
+    width: 100%;
+    border-radius: 0px;
+}
+.section11 .down h6 {
+    font-size: 12px;
+}
+.section11 .down p {
+    font-size: 9px;
+}
+.section11 .down div{
+    width: 31%;
+}
+.section11 .down button {
+    width: 110px;
+}
+ /* end section11 */
+ 
+ /* start section12 */
+ .section12 img{
+    display: none;
+}
+.section12 {
+    margin: 0% 2%;
+}
+.section12 .top {
+    margin-bottom: 4%;
+}
+.section12 .top div h6 {
+    margin: 0;
+}
+.section12 .top h6 {
+    margin: 0;
+}
+.section12 .down {
+    margin: 0;
+    height: auto;
+    justify-content: space-around;
+}
+.section12 .down .left {
+    width: 45%;
+}
+.section12 ul {
+    font-size: 20px;
+}
+.section12 li {
+    font-size: 10px;
+}
+.section12 h6 {
+    margin: 6% 14%;
+}
+.section12 .down .right {
+    width: 45%;
+}
+
+ /* end section12 */
+ 
+ /* start section13 */
+ .section13 {
+    margin: 7% 2%;
+}
+.section13 .left {
+    margin: 2% 2%;
+}
+.section13 h5 {
+    font-size: 7px;
+}
+.section13 h3 {
+    width: auto;
+font-size: 12px;
+    line-height: 24px;
+}
+.section13 input {
+    width: 50%;
+}
+.section13 button {
+    width: auto;
+}
+.section13 p {
+    font-size: 10px;
+    margin-top: 4%;
+}
+.section13 img {
+    width: 100%;
+}
+.section13 .right {
+    width: auto;
+}
+  
+ /* end section13 */
+ 
+ /* start footer */
+ footer{
+    display: grid;
+    grid-template-columns: 48% 7% 40%;
+    grid-template-rows: auto auto auto auto;
+    background: #17182A;
+    height: auto;
+    padding-left: 10px;
+     
+ }
+
+ footer .one {
+    grid-column: 1/2;
+    margin-top: 50px;
+}
+
+footer .three {
+    display: flex;
+    margin-top: 0;
+    justify-content: space-evenly;
+    grid-column: 3/4;
+}
+
+footer .four {
+    display: flex;
+    margin-top: 97px;
+    justify-content: space-evenly;
+    grid-column: 3/4;
+    width: auto;
+}
+footer address {
+    font-size: 10px;
+}
+ /* end footer */
